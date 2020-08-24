@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.head {
+  font-size: 3rem;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+
+.a {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* link */
+a {
+  color: #2a8c97;
+}
+a:hover {
+  text-decoration: none;
+  color: #1b5a61;
+}
+
+/* form */
+.form-group label {
+  color: #2a8c97;
+}
+
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="text"] {
+  border: 1px solid #2a8c97;
+  background-color: #f3fffc;
+}
+
+/* button */
+.btn-main {
+  color: #fff;
+  background-color: #2a8c97;
+  border-color: #2a8c97;
+}
+.btn-main:hover {
+  color: #fff;
+  background-color: #1b5a61;
+  border-color: #1b5a61;
+}
+
+/* end button */
+
+.underline {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  z-index: -99;
+}
+
+.underline .content {
+  position: relative;
+  left: -50%;
+  width: 8rem;
+  height: 0.5rem;
+  background-color: #2a8c97;
+}
+
+@media only screen and (max-width: 600px) {
+  .h-100vh {
+    height: unset;
+  }
+}
